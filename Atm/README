@@ -1,0 +1,28 @@
+1、软件定位，软件的基本功能。
+    这是一个ATM信用卡程序，
+    实现了查询、还款、提现、转账功能
+2、运行代码的方法: 安装环境、启动命令等。
+    目前仅配置了普通用户管理接口，Atm/bin/下的atm.py文件
+3、简要的使用说明。
+    找到Atm/bin/atm.py文件，运行即可。
+        账户：123456
+        密码：admin123
+    db数据文件位于Atm/db/accounts/目录下
+4、代码目录结构说明。
+    本程序使用传统的目录架构：
+    App/
+		bin/        #可执行文件目录
+			app.py
+		conf        #配置文件目录
+			conf.py
+		core        #主程序目录
+			test
+				__init__.py
+				main.py
+			main.py     #主程序文件
+			__init__.py
+		setup.py
+		requirement.txt
+		readme/README
+5、常见问题说明。
+    暂无。
